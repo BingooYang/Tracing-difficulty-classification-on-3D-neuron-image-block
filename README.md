@@ -29,8 +29,8 @@ A model called 3D-SSM is designed to classify the tracing difficultyof 3D image 
 ├── README.md
 
 ```
-1. Get 3D image blocks, gold blocks, and auto blocks by **vaa3d_plugin**.
-2. Get L-Measure and neuron distance features by **annotation**.
-3. To predict the tracing difficulty of 3D image blocks by model file.
+1. Get 3D image blocks, gold blocks, and auto blocks using **vaa3d_plugin file**.
+2. Get L-Measure and neuron distance features using **deal_feature file**, and get automatic label using **automatic_label file** .
+3. To train and predict the tracing difficulty of 3D image blocks models using **classification_model file**.
 
 
