@@ -19,11 +19,12 @@ A model called 3D-SSM is designed to classify the tracing difficultyof 3D image 
 ### 3. Code
 
 ```
-├── annotation               
-│   ├── deal_feature        Extraction and analysis of L-Measure and neuron distance features.
-│   ├── automatic_label     Train an FFCNs model and use it to generate automatic labels.
+            
+├── deal_feature        Extraction and analysis of L-Measure and neuron distance features.
+├── automatic_label     Train an FFCNs model and use it to generate automatic labels.
 ├── classification_model    Models are designed to solve the tracing difficulty classification of 3D image blocks.
 ├── vaa3d_plugin            Plug-in for getting 3D image blocks, gold blocks, and auto blocks.
+├── annotation.md       Annotation relus.
 ├── README.md
 
 ```
