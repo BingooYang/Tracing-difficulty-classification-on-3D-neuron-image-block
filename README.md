@@ -2,9 +2,7 @@
 
 ### 0. Dataset sourece
 
-Raw experimental data including whole brain data of No. 17545 mouse and No.
-17302 mouse and corresponding gold standard reconstruction were provided by
-the Southeast University-Allen Institute Joint Center.
+Sample data are constructed from 3D neuron images of two whole mouse brains (denoted by brain-A and brain-B, respectively), gold standard reconstructions and automatic reconstructions of marked neurons in them. These data were provided by the Southeast University-Allen Institute Joint Center.
 
 ### 1. Data processing
 
