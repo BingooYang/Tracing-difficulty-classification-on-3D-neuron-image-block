@@ -8,11 +8,11 @@ the Southeast University-Allen Institute Joint Center.
 
 ### 1. Data processing
 
-Three types of sample data need to be constructed to achieve the tracing difficulty classification: 1. 3D image blocks, gold blocks, and auto blocks; 2. Neuron distance (ND) [28] of gold blocks and auto blocks, and L-Measure (LM) [29] of auto blocks; 3. Annotation data of 3D image blocks. 
+Three types of sample data need to be constructed to achieve the tracing difficulty classification: 1. 3D image blocks, gold blocks, and auto blocks; 2. Neuron distance (ND) of gold blocks and auto blocks, and L-Measure (LM) of auto blocks; 3. Annotation data of 3D image blocks. 
 
 ### 2. Model
 
-3D-SSM mainly consists of three parts: SFE, SIE and MF. First of all, 3D-ResNet and FFCNs in SEF are trained by using 3D image blocks and LM-32 of corresponding auto blocks, and their parameters are saved. Then, LSTM in SIE is used to extract the sequence information hidden in blocks, and the network parameters are saved, as well. Finally, the output features of SIE are fused by concatenate and FFCNs, and the SFE, SIE and MF are trained together.
+A model called 3D-SSM is designed to classify the tracing difficultyof 3D image blocks, which is based on ResNet, Fully Connected Neural Net-work (FCNN) and Long Short-Term Memory network (LSTM). 3D-SSMconsists of three modules: Structure Feature Extraction (SFE), Sequence Informa-tion Extraction (SIE) and Model Fusion (MF). SFE utilizes a 3D-ResNet and aFCNN to extract two kinds of features in 3D neuron image blocks and automaticreconstruction blocks. SIE uses two LSTMs to extract sequence information hid-den in features of sequential blocks produced in SFE. MF adopts a concatenationoperation and a FCNN to fuse outputs from SIE.
 
 ### 3. Code
 
