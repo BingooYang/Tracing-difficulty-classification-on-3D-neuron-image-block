@@ -14,7 +14,7 @@ Three types of sample data need to be constructed to achieve the tracing difficu
 
 A model called 3D-SSM is designed to classify the tracing difficultyof 3D image blocks, which is based on ResNet, Fully Connected Neural Net-work (FCNN) and Long Short-Term Memory network (LSTM). 3D-SSMconsists of three modules: Structure Feature Extraction (SFE), Sequence Informa-tion Extraction (SIE) and Model Fusion (MF). SFE utilizes a 3D-ResNet and aFCNN to extract two kinds of features in 3D neuron image blocks and automaticreconstruction blocks. SIE uses two LSTMs to extract sequence information hid-den in features of sequential blocks produced in SFE. MF adopts a concatenationoperation and a FCNN to fuse outputs from SIE.
 
-![image](https://github.com/BingooYang/Tracing-difficulty-classification-on-3D-neuron-image-block/blob/main/3D-SSM.PNG)
+<div align=center>![image](https://github.com/BingooYang/Tracing-difficulty-classification-on-3D-neuron-image-block/blob/main/3D-SSM.PNG)
 
 ### 3. Code
 
