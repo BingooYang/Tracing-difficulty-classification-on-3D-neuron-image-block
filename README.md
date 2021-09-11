@@ -19,8 +19,8 @@ Three types of sample data need to be constructed to achieve the tracing difficu
 ```
 ├── annotation               
 │   ├── deal_feature        Extraction and analysis of L-Measure and neuron distance features.
-│   ├── machine_label       Train an FFCNs model and use it to generate machine labels.
-├── model                   Models are designed to solve the tracing difficulty classification of 3D image blocks.
+│   ├── automatic_label     Train an FFCNs model and use it to generate automatic labels.
+├── classification_model    Models are designed to solve the tracing difficulty classification of 3D image blocks.
 ├── vaa3d_plugin            Plug-in for getting 3D image blocks, gold blocks, and auto blocks.
 ├── README.md
 
